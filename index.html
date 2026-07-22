@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Herti Sari Amelia — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="is-loading">
+
+<div id="loader">
+  <div class="loader-mark">Caramel <span>✦</span></div>
+  <div class="loader-bar"><span></span></div>
+</div>
+
+<div class="blobs">
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="blob b3"></div>
+  <div class="blob b4"></div>
+</div>
+
+<header>
+  <div class="logo">Caramel <span>✦</span></div>
+  <div class="burger" id="burger">☰</div>
+  <nav id="nav">
+    <ul>
+      <li><a href="#beranda" data-i18n="nav_beranda">Beranda</a></li>
+      <li><a href="#tentang" data-i18n="nav_tentang">Tentang</a></li>
+      <li><a href="#kemampuan" data-i18n="nav_kemampuan">Kemampuan</a></li>
+      <li><a href="#pengalaman" data-i18n="nav_pengalaman">Pengalaman</a></li>
+      <li><a href="#projek" data-i18n="nav_projek">Projek</a></li>
+      <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+    <button id="lang-toggle" class="lang-btn" type="button" aria-label="Ganti bahasa / Switch language">
+      <span class="lang-opt active" data-lang="id">ID</span>
+      <span class="lang-sep">/</span>
+      <span class="lang-opt" data-lang="en">EN</span>
+    </button>
+  </nav>
+</header>
+
+<!-- BERANDA -->
+<section id="beranda" class="hero">
+  <p class="eyebrow" data-i18n="hero_eyebrow">Halo, perkenalkan</p>
+  <h1>Herti Sari <em>Amelia</em></h1>
+  <p class="role" data-i18n="hero_role">Membangun sesuatu dari baris-baris kode adalah cara saya mengubah ide menjadi kenyataan.</p>
+  <div class="pill-row">
+    <a href="#projek" class="pill solid" data-i18n="hero_btn_projek">✦ Lihat Projek</a>
+    <a href="#contact" class="pill" data-i18n="hero_btn_contact">Hubungi Saya</a>
+  </div>
+</section>
+
+<!-- TENTANG -->
+<section id="tentang">
+  <div class="sec-head reveal">
+    <div class="sec-tag" data-i18n="tentang_tag">Tentang Saya</div>
+    <h2 class="sec-title" data-i18n="tentang_title">Hi, there!</h2>
+  </div>
+  <div class="about-grid">
+    <div class="photo-wrap reveal">
+      <!-- GANTI src di bawah ini dengan foto kamu sendiri. Taruh file foto di folder assets/ -->
+      <img src="assets/foto-herti.jpeg" alt="Foto Herti Sari Amelia">
+    </div>
+    <div class="about-text reveal">
+      <p data-i18n="tentang_p1">Saya adalah seseorang yang tertarik pada perpaduan antara logika, kreativitas, dan teknologi. Dunia Informatika mempertemukan ketiganya dalam satu ruang yang terus berkembang dan penuh tantangan.</p>
+      <p data-i18n="tentang_p2">Bagi saya, belajar Informatika bukan sekadar memahami bahasa pemrograman atau membangun aplikasi, tetapi juga melatih cara berpikir untuk menemukan solusi yang efektif dan efisien. Setiap proyek yang saya kerjakan menjadi kesempatan untuk terus berkembang, mencoba hal baru, dan memperluas wawasan di bidang teknologi.</p>
+      <p data-i18n="tentang_p3">Portofolio ini menjadi ruang untuk mendokumentasikan perjalanan, pengalaman, serta karya yang telah saya bangun selama menempuh pendidikan dan mengeksplorasi dunia teknologi.</p>
+      <div class="about-meta">
+        <span>Herti Sari Amelia</span>
+        <span data-i18n="tentang_meta">Program Studi Informatika — Universitas Teknokrat Indonesia</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KEMAMPUAN -->
+<section id="kemampuan">
+  <div class="sec-head reveal">
+    <div class="sec-tag" data-i18n="skill_tag">Kemampuan</div>
+    <h2 class="sec-title" data-i18n="skill_title">Skill &amp; Tools</h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <div class="skill-icon">H</div>
+      <h3>HTML</h3>
+      <div class="bar"><span style="width:85%"></span></div>
+      <p data-i18n="skill_html">Menyusun struktur halaman web secara semantik dan rapi.</p>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">C</div>
+      <h3>CSS</h3>
+      <div class="bar"><span style="width:80%"></span></div>
+      <p data-i18n="skill_css">Mendesain tampilan, layout responsif, dan animasi ringan.</p>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">J</div>
+      <h3>JavaScript</h3>
+      <div class="bar"><span style="width:70%"></span></div>
+      <p data-i18n="skill_js">Menambahkan interaksi dan logika pada tampilan web.</p>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">C++</div>
+      <h3>C++</h3>
+      <div class="bar"><span style="width:65%"></span></div>
+      <p data-i18n="skill_cpp">Dasar pemrograman terstruktur dan penyelesaian masalah algoritma.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PENGALAMAN -->
+<section id="pengalaman">
+  <div class="sec-head reveal">
+    <div class="sec-tag" data-i18n="exp_tag">Pengalaman</div>
+    <h2 class="sec-title" data-i18n="exp_title">Perjalanan Saya</h2>
+  </div>
+  <div class="timeline">
+    <div class="t-item reveal">
+      <div class="t-year">2023 — 2026</div>
+      <h3 data-i18n="exp1_h">Green Heroes — Green Youth Movement</h3>
+      <p data-i18n="exp1_p">Taman Nasional Bukit Barisan Selatan. Berkolaborasi dengan 1.979 pelajar dari 1.140 sekolah di Indonesia dan mendapatkan SK Menteri Lingkungan Hidup dan Kehutanan.</p>
+    </div>
+    <div class="t-item reveal">
+      <div class="t-year">2023 — 2024</div>
+      <h3 data-i18n="exp2_h">Ketua Advokasi</h3>
+      <p data-i18n="exp2_p">Ikatan Pelajar Muhammadiyah Ranting SMK Muhammadiyah 1 Kota Agung. Mengembangkan kesadaran advokatif berkaitan dengan persamaan hak. Bergerak di bidang bakti sosial dan konseling.</p>
+    </div>
+    <div class="t-item reveal">
+      <div class="t-year">2022</div>
+      <h3 data-i18n="exp3_h">Juara 3 Lomba Debat Bahasa Indonesia Tingkat Provinsi</h3>
+      <p data-i18n="exp3_p">Ajang Gebyar Bulan Bahasa 2022 yang diselenggarakan oleh Universitas Muhammadiyah Pringsewu (UMPRI). Prestasi ini menunjukkan kemampuan berpikir kritis, komunikasi, dan penyampaian argumentasi secara efektif dalam tim.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJEK -->
+<section id="projek">
+  <div class="sec-head reveal">
+    <div class="sec-tag" data-i18n="proj_tag">Projek</div>
+    <h2 class="sec-title" data-i18n="proj_title">Karya Terpilih</h2>
+  </div>
+  <div class="proj-grid">
+    <div class="proj-card reveal">
+      <div class="proj-thumb"><img src="assets/projek-krakatau-adventure.png" alt="Krakatau Adventure Game"></div>
+      <div class="proj-body">
+        <div class="proj-tag" data-i18n="proj1_tag">Struktur Data</div>
+        <h3>Krakatau Adventure</h3>
+        <p data-i18n="proj1_p">Game edukatif bertema petualangan Krakatau, dibuat sebagai projek akhir mata kuliah Struktur Data.</p>
+      </div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-thumb"><img src="assets/projek-web-portofolio.png" alt="Web Portofolio Pribadi"></div>
+      <div class="proj-body">
+        <div class="proj-tag">HTML · CSS · JS</div>
+        <h3 data-i18n="proj2_h">Web Portofolio Pribadi</h3>
+        <p data-i18n="proj2_p">Website portofolio pribadi yang sedang kamu lihat sekarang, dibangun dengan HTML, CSS, dan JavaScript.</p>
+      </div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-thumb"><img src="assets/projek-packaging-bananies.png" alt="Desain Packaging Bananies"></div>
+      <div class="proj-body">
+        <div class="proj-tag" data-i18n="proj3_tag">Desain Grafis</div>
+        <h3 data-i18n="proj3_h">Packaging "Bananies"</h3>
+        <p data-i18n="proj3_p">Desain kemasan makanan bertema pisang, dibuat sebagai projek akhir mata kuliah Desain Grafis.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="sec-head reveal">
+    <div class="sec-tag" data-i18n="contact_tag">Contact</div>
+    <h2 class="sec-title" data-i18n="contact_title">Mari Terhubung</h2>
+  </div>
+  <div class="contact-wrap">
+    <div class="contact-info reveal">
+      <p data-i18n="contact_p">Terbuka untuk kolaborasi projek, diskusi, atau sekadar berkenalan. Silakan hubungi saya melalui salah satu kanal di bawah ini.</p>
+      <div class="info-line">
+        <div>
+          <span data-i18n="contact_email_label">Email</span>
+          <span>hertisariameliaa@gmail.com</span>
+        </div>
+        <div>
+          <span data-i18n="contact_kampus_label">Kampus</span>
+          <span>Universitas Teknokrat Indonesia</span>
+        </div>
+        <div>
+          <span data-i18n="contact_ig_label">Instagram</span>
+          <span>@hicaramel_</span>
+        </div>
+      </div>
+    </div>
+    <form class="reveal">
+      <input type="text" data-i18n-placeholder="form_nama" placeholder="Nama" required>
+      <input type="email" data-i18n-placeholder="form_email" placeholder="Email" required>
+      <textarea data-i18n-placeholder="form_pesan" placeholder="Pesan" required></textarea>
+      <button class="send-btn" type="submit" data-i18n="form_submit">Kirim Pesan</button>
+    </form>
+  </div>
+</section>
+
+<footer data-i18n="footer_text">
+  © 2026 Herti Sari Amelia — Informatika, Universitas Teknokrat Indonesia
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
